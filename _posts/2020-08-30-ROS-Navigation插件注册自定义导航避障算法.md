@@ -1,9 +1,8 @@
 ---
 title: ROS Navigation插件注册自定义导航避障算法
 layout: post
-post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/What%20is%20Jekyll%20and%20How%20to%20use%20it.png?token=AHMQUELVG36IDSA4SZEZ5P26Z64IW"
-description: Jekyll is a static site generator. You give it text written in your favorite
-  markup language and it uses layouts to create a static website.
+post-image: "https://raw.githubusercontent.com/FistsK/FistsK.github.io/master/assets/images/%E5%AF%BC%E8%88%AA%E9%81%BF%E9%9A%9C.png"
+description: 利用ROS插件注册机制，加入自定义的导航避障算法.
 tags:
 - ROS
 - 导航避障
