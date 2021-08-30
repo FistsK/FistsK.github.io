@@ -19,9 +19,9 @@ tags:
 看了这篇CSDN,然后按照博客主“2.5 Step by Step”编写一遍插件注册，熟悉了插件注册的流程。然后，又去看了[ROS与navigation教程-编写自定义全局路径规划](https://www.ncnynl.com/archives/201708/1887.html)文章，思路清晰了很多。
 # 3.学完准备自己动手尝试
 [为ROS navigation功能包添加自定义的全局路径规划器(Global Path Planner)](https://blog.csdn.net/bluewhalerobot/article/details/73771020?utm_source=blogxgwz4)-BWBOT
-拷贝-修改！！！！！ 
-简单粗暴老哥稳niubility！ 
-按照这几个例程完成了插件注册。 
+拷贝-修改！！！！！   
+简单粗暴老哥稳niubility！  
+按照这几个例程完成了插件注册。   
 ![在这里插入图片描述](https://csdn-img-blog.oss-cn-beijing.aliyuncs.com/9af867248b43445094327434637fd0a5.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hpX3NodWk=,size_16,color_FFFFFF,t_70#pic_center) 
 
 
@@ -120,7 +120,7 @@ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map
 ```
 <param name="base_global_planner" value="global_planner/GlobalPlanner"/>
 ```
-![在这里插入图片描述](https://img-blog.csdnimg.cn/460765afc07c4006b3a973e206755df8.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hpX3NodWk=,size_16,color_FFFFFF,t_70#pic_center) 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/460765afc07c4006b3a973e206755df8.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hpX3NodWk=,size_16,color_FFFFFF,t_70#pic_center)  
 可以看到global_planner信息加载进了，运行仿真看一下效果 
 [global_planner效果](http://static.zybuluo.com/RockWang-/ybwp7ywpc2qr9gg47czn5fk6/global_planner.mp4) 
 
