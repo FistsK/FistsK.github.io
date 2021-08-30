@@ -1,5 +1,5 @@
 ---
-title: AAAAAAAAAAAA?
+title: ROS Navigation插件注册自定义导航避障算法
 layout: post
 post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/What%20is%20Jekyll%20and%20How%20to%20use%20it.png?token=AHMQUELVG36IDSA4SZEZ5P26Z64IW"
 description: Jekyll is a static site generator. You give it text written in your favorite
