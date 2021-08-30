@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: 'https://www.rockwang.com'
+url: ''
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: https://www.FistsK.github.io
+baseurl: 
 
 # Title of the Site
 title: RockWang'S Blog
