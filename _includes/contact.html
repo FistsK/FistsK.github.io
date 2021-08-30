@@ -45,6 +45,9 @@
                 {% unless site.youtube_channel_id ==  %}
                 <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank" class="has-text-black"><i class="fab fa-youtube"></i></a>
                 {% endunless %}
+                {% unless site.bilibili_username == %}
+                <a href="https://space.bilibili.com/{{site.bilibili_username}}" target="_blank" class="has-text-black"><i class="fab fa-bimobject"></i></a>
+                {% endunless %}
                 {% unless site.reddit_username ==  %}
                 <a href="http://www.reddit.com/u/{{site.reddit_username}}" target="_blank" class="has-text-black"><i class="fab fa-reddit"></i></a>
                 {% endunless %}
