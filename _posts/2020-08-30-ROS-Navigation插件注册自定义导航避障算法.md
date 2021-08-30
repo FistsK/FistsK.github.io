@@ -16,7 +16,8 @@ tags:
 在百度最先搜到这篇文章，是中文版的ROSwiki,本人英语不好，hhhhh,看完没太懂，只对插件注册有点印象，于是......
 # 2.ROS的pluginlib的理解与实例——土豆西瓜大芝麻
 [ROS的pluginlib的理解与实例](https://blog.csdn.net/jinking01/article/details/79414486)
-看了这篇CSDN,然后按照博客主“2.5 Step by Step”编写一遍插件注册，熟悉了插件注册的流程。然后，又去看了[ROS与navigation教程-编写自定义全局路径规划](https://www.ncnynl.com/archives/201708/1887.html)文章，思路清晰了很多。
+看了这篇CSDN,然后按照博客主“2.5 Step by Step”编写一遍插件注册，熟悉了插件注册的流程。  
+然后，又去看了[ROS与navigation教程-编写自定义全局路径规划](https://www.ncnynl.com/archives/201708/1887.html)文章，思路清晰了很多。
 # 3.学完准备自己动手尝试
 [为ROS navigation功能包添加自定义的全局路径规划器(Global Path Planner)](https://blog.csdn.net/bluewhalerobot/article/details/73771020?utm_source=blogxgwz4)-BWBOT
 拷贝-修改！！！！！   
@@ -175,8 +176,8 @@ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map
 可以看到test_planner加载成功 
 运行看仿真效果  
 [test_planner效果](http://static.zybuluo.com/RockWang-/n9xdvxpeyli99fj8ipavy4z9/test_planner.mp4)  
-可以看到全局路径变化明显为直线，这正是我们直接拷贝carrot_planner包源文件的规划算法内容（全局规划器最小实现例程内容） 
-到此我们在TurtleBot3仿真环境中实现了自定义全局规划的注册和使用，下一步就可以进一步研究源码.cpp文件，学习如何编写自己的算法注册到ROS中进行仿真试验了。 
+可以看到全局路径变化明显为直线，这正是我们直接拷贝carrot_planner包源文件的规划算法内容（全局规划器最小实现例程内容）  
+到此我们在TurtleBot3仿真环境中实现了自定义全局规划的注册和使用，下一步就可以进一步研究源码.cpp文件，学习如何编写自己的算法注册到ROS中进行仿真试验了。   
 # 5.总结
 插件注册步骤:直接copy的原文链接[ROS的pluginlib的理解与实例](https://blog.csdn.net/jinking01/article/details/79414486)------土豆西瓜大芝麻 
 
