@@ -1,7 +1,7 @@
 ---
 title: ROS Navigation插件注册自定义导航避障算法
 layout: post
-post-image: "https://raw.githubusercontent.com/FistsK/FistsK.github.io/master/assets/images/%E5%AF%BC%E8%88%AA%E9%81%BF%E9%9A%9C.png"
+post-image: "https://csdn-img-blog.oss-cn-beijing.aliyuncs.com/7ff1476a690547f8afb0a2a70c90b6f3.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hpX3NodWk=,size_16,color_FFFFFF,t_70"
 description: 利用ROS插件注册机制，加入自定义的导航避障算法.
 tags:
 - ROS
